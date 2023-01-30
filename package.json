@@ -1,0 +1,30 @@
+{
+    "name": "api-login-com-tdd",
+    "version": "1.0.0",
+    "description": "API de Login, utilizando TDD",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adnansoffiatti/api-login-com-tdd.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adnansoffiatti/api-login-com-tdd/issues"
+    },
+    "homepage": "https://github.com/adnansoffiatti/api-login-com-tdd#readme",
+    "dependencies": {
+        "@types/jest": "^29.4.0",
+        "bcrypt": "^5.1.0",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jest": "^29.4.1",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^6.9.0",
+        "supertest": "^6.3.3"
+    }
+}
