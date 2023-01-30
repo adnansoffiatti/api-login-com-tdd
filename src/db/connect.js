@@ -7,7 +7,6 @@ const connectToDatabase = async () => {
         if(error) {
             return console.log("Ocorreu erro ao se conectar ao banco de dados", error);
         }
-        return console.log("Conexão ao banco realizada com sucesso");
     })
 }
 
